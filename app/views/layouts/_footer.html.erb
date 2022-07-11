@@ -1,0 +1,18 @@
+<footer class="footer">
+  <small>
+    <%= t "the" %>
+    <%= link_to t("ruby_on_rails_tutorial"),
+                Settings.url.rails_tutorial.home %>
+    <%= t "by" %>
+    <%= link_to t("author"), Settings.url.michaelhartl %>
+  </small>
+  <nav>
+    <ul>
+      <li><%= link_to t("about"), about_path %></li>
+      <li><%= link_to t("contact"), contact_path %></li>
+      <li><%= link_to t("news"), Settings.url.rails_tutorial.news %></li>
+      <li><%= link_to t("english"), locale:"en" %></li>
+      <li><%= link_to t("vietnamese"), locale:"vi" %></li>
+    </ul>
+  </nav>
+</footer>
