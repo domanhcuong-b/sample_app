@@ -1,0 +1,43 @@
+vi:
+  the: "Cuốn sách"
+  ruby_on_rails_tutorial: "Ruby on Rails Tutorial"
+  by: "được viết bởi"
+  author: "Michael Hartl"
+  news: "Mới"
+  about: "Thông tin"
+  contact: "Liên lạc"
+  sample_app: "sample app"
+  home: "Trang chủ"
+  help: "Hỗ trợ"
+  log_in: "Đăng nhập"
+  ruby_on_rails_tutorial_sample_app: "Ruby on Rails Tutorial Sample App"
+  english: "EN"
+  vietnamese: "VI"
+  static_pages:
+    about:
+      part_of_the: "một phần trong hệ thống hướng dẫn"
+      learn_enough: "Learn Enough"
+      family_of_tutorials_is_a: ", là một"
+      book: "cuốn sách"
+      and: "và"
+      screencast_series: "loạt bài giảng"
+      to_teach_web_development_with: "hướng dẫn các nhà phát triển ứng dụng Web tiếp cận với"
+      ruby_on_rails: "Ruby on Rails"
+      this_is_the_simple_app_for_tutorial: "Đây là ứng dụng mẫu của bài hướng dẫn"
+    contact:
+      contact_page: "trang liên lạc"
+      contact_at: "Trao đổi thông tin về ứng dụng mẫu Ruby on Rails Tutorial tại"
+    home:
+      welcome: "Rất vui vì bạn đã ghé thăm Sample App"
+      home_page_for: "Đây là trang chủ của"
+      sample_application: "ứng dụng mẫu"
+      sign_up_now: "Đăng nhập ngay!"
+    help:
+      get_help_at: "Nhận trợ giúp khi có bất kỳ vướng mắc gì về Ruby on Rails Tutorial tại"
+      help_page: "trang hỗ trợ Rails Tutorial"
+      see_help_on_sample_app: "Để nhận hướng dẫn về ứng dụng mẫu, đọc"
+      book: ""
+  users:
+    new:
+      sign_up: "Đăng ký"
+      description: "Trang đăng ký dành cho người dùng mới."
