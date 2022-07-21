@@ -12,4 +12,7 @@
  *
  *= require_tree .
  *= require_self
+ *= require _bootstrap-sprockets
+ *= require _bootstrap
  */
+

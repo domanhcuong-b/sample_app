@@ -1,0 +1,12 @@
+url:
+  michaelhartl: "https://www.michaelhartl.com"
+  shim: "//cdnjs.cloudflare.com/ajax/libs/html5shiv/r29/html5.min.js"
+  learn_enought: "https://www.learnenough.com/"
+  ruby_on_rails: "https://rubyonrails.org/"
+  rails_tutorial:
+    home: "https://www.railstutorial.org"
+    news: "https://news.railstutorial.org/"
+    screencast: "https://screencasts.railstutorial.org/"
+    help: "http://www.railstutorial.org/help"
+    contact: "https://www.railstutorial.org/contact"
+    book: "https://www.railstutorial.org/book"
