@@ -10,3 +10,10 @@ url:
     help: "http://www.railstutorial.org/help"
     contact: "https://www.railstutorial.org/contact"
     book: "https://www.railstutorial.org/book"
+
+user:
+  VALID_EMAIL_REGEX: !ruby/regexp /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
+  NAME_MAX_LENGTH: 50
+  EMAIL_MIN_LENGTH: 10
+  EMAIL_MAX_LENGTH: 255
+  PASSWORD_MIN_LENGTH: 6
