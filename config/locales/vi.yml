@@ -13,6 +13,9 @@ vi:
   ruby_on_rails_tutorial_sample_app: "Ruby on Rails Tutorial Sample App"
   english: "EN"
   vietnamese: "VI"
+  welcome: "Rất vui vì bạn đã ghé thăm Sample App"
+  the_form_contains: "Đã phát hiện"
+  error: "lỗi"
   static_pages:
     about:
       part_of_the: "một phần trong hệ thống hướng dẫn"
@@ -31,13 +34,21 @@ vi:
       welcome: "Rất vui vì bạn đã ghé thăm Sample App"
       home_page_for: "Đây là trang chủ của"
       sample_application: "ứng dụng mẫu"
-      sign_up_now: "Đăng nhập ngay!"
+      sign_up_now: "Đăng ký ngay!"
     help:
       get_help_at: "Nhận trợ giúp khi có bất kỳ vướng mắc gì về Ruby on Rails Tutorial tại"
       help_page: "trang hỗ trợ Rails Tutorial"
       see_help_on_sample_app: "Để nhận hướng dẫn về ứng dụng mẫu, đọc"
       book: ""
   users:
+    welcome: "Rất vui vì bạn đã ghé thăm Sample App"
+    user_not_found: "Không tìm thấy người dùng"
+    sign_up_fail: "Đăng ký tài khoản thất bại"
     new:
       sign_up: "Đăng ký"
       description: "Trang đăng ký dành cho người dùng mới."
+      name: "Tên"
+      email: "Email"
+      password: "Mật khẩu"
+      confirm_password: "Nhập lại mật khẩu"
+      create_account: "Tạo tài khoản"
