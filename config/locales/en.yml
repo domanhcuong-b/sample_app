@@ -16,6 +16,11 @@ en:
   welcome: "Welcome to the Sample App"
   the_form_contains: "The form contains"
   error: "error"
+  user: "Users"
+  account: "Account"
+  profile: "Profile"
+  settings: "Settings"
+  log_out: "Log out"
   static_pages:
     about:
       part_of_the: "part of the"
@@ -53,4 +58,10 @@ en:
       password: "Password"
       confirm_password: "Confirmation"
       create_account: "Create my account"
-
+  sessions:
+    invalid_email_password: "Invalid email/password combination"
+    new:
+      email: "Email"
+      password: "Password"
+      sign_up_now: "Sign up now!"
+      new_user: "New user?"
