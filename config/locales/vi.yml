@@ -16,6 +16,11 @@ vi:
   welcome: "Rất vui vì bạn đã ghé thăm Sample App"
   the_form_contains: "Đã phát hiện"
   error: "lỗi"
+  user: "Người dùng"
+  account: "Tài khoản"
+  profile: "Thông tin"
+  settings: "Cài đặt"
+  log_out: "Đăng xuất"
   static_pages:
     about:
       part_of_the: "một phần trong hệ thống hướng dẫn"
@@ -52,3 +57,10 @@ vi:
       password: "Mật khẩu"
       confirm_password: "Nhập lại mật khẩu"
       create_account: "Tạo tài khoản"
+  sessions:
+    invalid_email_password: "Email hoặc mật khẩu không hợp lệ"
+    new:
+      email: "Email"
+      password: "Mật khẩu"
+      sign_up_now: "Đăng ký ngay!"
+      new_user: "Chưa có tài khoản?"
