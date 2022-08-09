@@ -11,9 +11,11 @@ class User < ApplicationRecord
                      maximum: Settings.user.EMAIL_MAX_LENGTH},
             format: {with: Settings.user.VALID_EMAIL_REGEX},
             uniqueness: {case_sensitive: false}
-  validates :password, presence: true,
-            length: {minimum: Settings.user.PASSWORD_MIN_LENGTH}, if: :password
+  validates :password, presence: true, allow_nil: true,
+            length: {minimum: Settings.user.PASSWORD_MIN_LENGTH}
   has_secure_password
+
+  scope :order_by_time_created, ->{order created_at: :desc}
 
   class << self
     def digest string
@@ -46,6 +48,7 @@ class User < ApplicationRecord
   end
 
   private
+
   def downcase_email
     email.downcase!
   end
