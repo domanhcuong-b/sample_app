@@ -84,12 +84,31 @@ en:
       sign_up_now: "Sign up now!"
       new_user: "New user?"
       remember_me: "Remember me on this computer."
+      forgot_password: "Forgot Password"
   mail:
     account_activation:
       subject: "Account activation"
       hi: "Hi"
       click_to_active: "Click on the link below to activate your account:"
       activate: "Activate"
+    password_reset:
+      password_reset: "Password reset"
+      click_to_reset: "To reset your password click the link below:"
+      expire_time: "This link will expire in two hours."
+      alert: "If you did not request your password to be reset, please ignore this 
+        email and your password will stay as it is."
   account_activations:
     activate_success: "Activate success"
     invalid_activation_link: "Invalid activation link"
+  password_resets:
+    send_email_reset_password: "Email sent with password reset instructions"
+    email_expired: "Password reset has expired."
+    cannot_empty: "can't be empty"
+    reset_success: "Password has been reset."
+    system_error: "System error"
+    invalid_user: "Invalid user (Not exist, not active, invalid authenticate)"
+    new:
+      submit: "Submit"
+    edit:
+      reset_password: "Reset password"
+      update_password: "Update password"
