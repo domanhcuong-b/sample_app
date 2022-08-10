@@ -3,6 +3,7 @@ url:
   shim: "//cdnjs.cloudflare.com/ajax/libs/html5shiv/r29/html5.min.js"
   learn_enought: "https://www.learnenough.com/"
   ruby_on_rails: "https://rubyonrails.org/"
+  gravatar: "http://gravatar.com/emails"
   rails_tutorial:
     home: "https://www.railstutorial.org"
     news: "https://news.railstutorial.org/"
@@ -17,3 +18,6 @@ user:
   EMAIL_MIN_LENGTH: 10
   EMAIL_MAX_LENGTH: 255
   PASSWORD_MIN_LENGTH: 6
+  admin:
+    USER_PER_PAGE: 15
+

@@ -21,6 +21,8 @@ en:
   profile: "Profile"
   settings: "Settings"
   log_out: "Log out"
+  you_sure: "You sure?"
+  delete: "Delete"
   static_pages:
     about:
       part_of_the: "part of the"
@@ -50,14 +52,27 @@ en:
     welcome: "Welcome to the Sample App"
     user_not_found: "User not found"
     sign_up_fail: "Sign up fail"
-    new:
-      sign_up: "Sign up"
-      description: "This will be a signup page for new users."
+    profile_updated: "Profile updated"
+    please_log_in: "Please log in."
+    user_deleted: "User deleted"
+    delete_fail: "Delete fail"
+    incorrect_user: "Incorrect user"
+    updating_failed: "Updating failed"
+    form:
       name: "Name"
       email: "Email"
       password: "Password"
       confirm_password: "Confirmation"
+    index:
+      all_users: "All users"
+    new:
+      sign_up: "Sign up"
+      description: "This will be a signup page for new users."
       create_account: "Create my account"
+    edit:
+      edit_user: "Edit usered"
+      save_changes: "Save changes"
+      change: "change"
   sessions:
     invalid_email_password: "Invalid email/password combination"
     new:

@@ -21,6 +21,8 @@ vi:
   profile: "Thông tin"
   settings: "Cài đặt"
   log_out: "Đăng xuất"
+  you_sure: "Bạn chắc chắn?"
+  delete: "Xóa"
   static_pages:
     about:
       part_of_the: "một phần trong hệ thống hướng dẫn"
@@ -49,14 +51,27 @@ vi:
     welcome: "Rất vui vì bạn đã ghé thăm Sample App"
     user_not_found: "Không tìm thấy người dùng"
     sign_up_fail: "Đăng ký tài khoản thất bại"
-    new:
-      sign_up: "Đăng ký"
-      description: "Trang đăng ký dành cho người dùng mới."
+    profile_updated: "Cập nhật hồ sơ thành công"
+    please_log_in: "Cần đăng nhập để thực hiện thao tác."
+    user_deleted: "Xóa tài khoản thành công"
+    delete_fail: "Xóa tài khoản thất bại"
+    incorrect_user: "Người dùng không được phép thực hiện hành động này"
+    updating_failed: "Cập nhật không thành công"
+    form:
       name: "Tên"
       email: "Email"
       password: "Mật khẩu"
       confirm_password: "Nhập lại mật khẩu"
+    index:
+      all_users: "Danh sách người dùng"
+    new:
+      sign_up: "Đăng ký"
+      description: "Trang đăng ký dành cho người dùng mới."
       create_account: "Tạo tài khoản"
+    edit:
+      edit_user: "Chỉnh sửa thông tin cá nhân"
+      save_changes: "Lưu thay đổi"
+      change: "Thay đổi"
   sessions:
     invalid_email_password: "Email hoặc mật khẩu không hợp lệ"
     new:
