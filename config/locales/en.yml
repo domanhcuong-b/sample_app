@@ -58,6 +58,7 @@ en:
     delete_fail: "Delete fail"
     incorrect_user: "Incorrect user"
     updating_failed: "Updating failed"
+    check_email_to_active: "Please check your email to activate your account."
     form:
       name: "Name"
       email: "Email"
@@ -75,9 +76,20 @@ en:
       change: "change"
   sessions:
     invalid_email_password: "Invalid email/password combination"
+    account_not_active: "Account not activated. 
+      Check your email for the activation link."
     new:
       email: "Email"
       password: "Password"
       sign_up_now: "Sign up now!"
       new_user: "New user?"
       remember_me: "Remember me on this computer."
+  mail:
+    account_activation:
+      subject: "Account activation"
+      hi: "Hi"
+      click_to_active: "Click on the link below to activate your account:"
+      activate: "Activate"
+  account_activations:
+    activate_success: "Activate success"
+    invalid_activation_link: "Invalid activation link"

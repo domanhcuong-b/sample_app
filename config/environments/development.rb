@@ -62,4 +62,15 @@ Rails.application.configure do
 
   # Allow connections to local server.
   config.hosts.clear
+
+  config.action_mailer.delivery_method = :smtp
+  config.action_mailer.default_url_options = {host: ENV["HOST"]}
+  config.action_mailer.smtp_settings = {
+    user_name: ENV["MAIL_USER_NAME"],
+    password: ENV["MAIL_USER_PASSWORD"],
+    address: ENV["MAIL_ADDRESS"],
+    port: ENV["MAIL_PORT"],
+    authentication: :cram_md5,
+    enable_starttls_auto: true
+  }
 end
