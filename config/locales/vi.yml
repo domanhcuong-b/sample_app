@@ -57,6 +57,7 @@ vi:
     delete_fail: "Xóa tài khoản thất bại"
     incorrect_user: "Người dùng không được phép thực hiện hành động này"
     updating_failed: "Cập nhật không thành công"
+    check_email_to_active: "Kiểm tra hòm thư để kích hoạt tài khoản."
     form:
       name: "Tên"
       email: "Email"
@@ -74,9 +75,20 @@ vi:
       change: "Thay đổi"
   sessions:
     invalid_email_password: "Email hoặc mật khẩu không hợp lệ"
+    account_not_active: "Tài khoản chưa được kích hoạt. 
+          Kiểm tra email để nhận đường link kích hoạt tài khoản."
     new:
       email: "Email"
       password: "Mật khẩu"
       sign_up_now: "Đăng ký ngay!"
       new_user: "Chưa có tài khoản?"
       remember_me: "Ghi nhớ tài khoản trên thiết bị hiện tại."
+  mail:
+    account_activation:
+      subject: "Kích hoạt tài khoản"
+      hi: "Chào"
+      click_to_active: "Click vào đường dẫn dưới đây để kích hoạt tài khoản:"
+      activate: "Kích hoạt"
+  account_activations:
+    activate_success: "Kích hoạt tài khoản thành công"
+    invalid_activation_link: "Đường dẫn kích hoạt tài khoản không hợp lệ"
