@@ -83,12 +83,30 @@ vi:
       sign_up_now: "Đăng ký ngay!"
       new_user: "Chưa có tài khoản?"
       remember_me: "Ghi nhớ tài khoản trên thiết bị hiện tại."
+      forgot_password: "Quên mật khẩu"
   mail:
     account_activation:
       subject: "Kích hoạt tài khoản"
       hi: "Chào"
       click_to_active: "Click vào đường dẫn dưới đây để kích hoạt tài khoản:"
       activate: "Kích hoạt"
+    password_reset:
+      password_reset: "Đặt lại mật khẩu"
+      click_to_reset: "Click vào link bên dưới để đặt lại mật khẩu:"
+      expire_time: "Link có hiệu lực trong vòng hai giờ."
+      alert: "Bỏ qua email nếu bạn không thực hiện hành động này."
   account_activations:
     activate_success: "Kích hoạt tài khoản thành công"
     invalid_activation_link: "Đường dẫn kích hoạt tài khoản không hợp lệ"
+  password_resets:
+    send_email_reset_password: "Hướng dẫn đặt lại mật khẩu đã được gửi qua email"
+    email_expired: "Yêu cầu đặt lại mật khẩu đã quá hạn."
+    cannot_empty: "Không được để trống"
+    reset_success: "Mật khẩu đã được thay đổi."
+    system_error: "Lỗi hệ thống"
+    invalid_user: "Bạn không có quyền thực hiện hành động này."
+    new:
+      submit: "Gửi yêu cầu"
+    edit:
+      reset_password: "Đặt lại mật khẩu"
+      update_password: "Lưu thay đổi"

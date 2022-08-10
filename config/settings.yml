@@ -21,3 +21,5 @@ user:
   admin:
     USER_PER_PAGE: 15
 
+email:
+  TIME_EXPIRE_PASSWORD_RESET: 2
