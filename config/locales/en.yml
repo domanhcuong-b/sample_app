@@ -23,6 +23,13 @@ en:
   log_out: "Log out"
   you_sure: "You sure?"
   delete: "Delete"
+  posted: "Posted"
+  ago: "ago"
+  view_profile: "view my profile"
+  compose_new_micropost: "Compose new micropost..."
+  post: "Post"
+  micropost: "micropost"
+  img_size_alert: "Maximum file size is 5MB. Please choose a smaller file."
   static_pages:
     about:
       part_of_the: "part of the"
@@ -43,6 +50,7 @@ en:
       sample_application: "sample application"
       sign_up_now: "Sign up now!"
       rails_logo: "Rails logo"
+      micropost_feed: "Micropost feed"
     help:
       get_help_at: "Get help on the Ruby on Rails Tutorial at the"
       help_page: "Rails Tutorial help page"
@@ -74,6 +82,8 @@ en:
       edit_user: "Edit usered"
       save_changes: "Save changes"
       change: "change"
+    show:
+      microposts: "Microposts"
   sessions:
     invalid_email_password: "Invalid email/password combination"
     account_not_active: "Account not activated. 
@@ -112,3 +122,12 @@ en:
     edit:
       reset_password: "Reset password"
       update_password: "Update password"
+  microposts:
+    picture_size_too_large: "should be less than 5MB"
+    incorrect_user: "Incorrect user"
+    create:
+      success: "Micropost created!"
+      fail: "Create micropost fail. Try again."
+    destroy:
+      success: "Micropost deleted"
+      fail: "Delete micropost fail."

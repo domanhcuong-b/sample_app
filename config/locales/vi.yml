@@ -23,6 +23,13 @@ vi:
   log_out: "Đăng xuất"
   you_sure: "Bạn chắc chắn?"
   delete: "Xóa"
+  posted: "Đăng"
+  ago: "trước"
+  view_profile: "hồ sơ"
+  compose_new_micropost: "Tạo bài đăng mới..."
+  post: "Đăng tải"
+  micropost: "bài đăng"
+  img_size_alert: "Kích cỡ tối đa 5MB. Đề nghị chọn tệp có kích thước nhỏ hơn."
   static_pages:
     about:
       part_of_the: "một phần trong hệ thống hướng dẫn"
@@ -42,6 +49,8 @@ vi:
       home_page_for: "Đây là trang chủ của"
       sample_application: "ứng dụng mẫu"
       sign_up_now: "Đăng ký ngay!"
+      rails_logo: "Rails logo"
+      micropost_feed: "Trang bài đăng"
     help:
       get_help_at: "Nhận trợ giúp khi có bất kỳ vướng mắc gì về Ruby on Rails Tutorial tại"
       help_page: "trang hỗ trợ Rails Tutorial"
@@ -73,6 +82,8 @@ vi:
       edit_user: "Chỉnh sửa thông tin cá nhân"
       save_changes: "Lưu thay đổi"
       change: "Thay đổi"
+    show:
+      microposts: "Bài đăng"
   sessions:
     invalid_email_password: "Email hoặc mật khẩu không hợp lệ"
     account_not_active: "Tài khoản chưa được kích hoạt. 
@@ -110,3 +121,12 @@ vi:
     edit:
       reset_password: "Đặt lại mật khẩu"
       update_password: "Lưu thay đổi"
+  microposts:
+    picture_size_too_large: "kích thước hình ảnh nhỏ hơn 5MB"
+    incorrect_user: "Người dùng không được phép"
+    create:
+      success: "Tạo bài đăng mới thành công!"
+      fail: "Tạo bài đăng thất bại. Hãy thử lại."
+    destroy:
+      success: "Xóa bài đăng thành công"
+      fail: "Xoá bài đăng thất bại."

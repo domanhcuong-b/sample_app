@@ -13,7 +13,10 @@ class UsersController < ApplicationController
     @user = User.new
   end
 
-  def show; end
+  def show
+    @pagy, @microposts = pagy @user.microposts.newest,
+                              items: Settings.micropost.PER_PAGE
+  end
 
   def create
     @user = User.new user_params
@@ -52,14 +55,6 @@ class UsersController < ApplicationController
 
   def user_params
     params.require(:user).permit(User::UPDATETABLE_ATTRS)
-  end
-
-  def logged_in_user
-    return if logged_in?
-
-    store_location
-    flash[:danger] = t ".please_log_in"
-    redirect_to login_url
   end
 
   def correct_user
