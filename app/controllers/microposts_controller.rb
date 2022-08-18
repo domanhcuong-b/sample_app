@@ -36,3 +36,4 @@ class MicropostsController < ApplicationController
     flash[:danger] = t ".incorrect_user"
     redirect_to root_url
   end
+end

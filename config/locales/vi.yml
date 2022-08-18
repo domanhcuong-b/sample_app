@@ -30,6 +30,10 @@ vi:
   post: "Đăng tải"
   micropost: "bài đăng"
   img_size_alert: "Kích cỡ tối đa 5MB. Đề nghị chọn tệp có kích thước nhỏ hơn."
+  following: "Following"
+  followers: "Followers"
+  follow: "Theo dõi"
+  unfollow: "Bỏ theo dõi"
   static_pages:
     about:
       part_of_the: "một phần trong hệ thống hướng dẫn"
@@ -130,3 +134,5 @@ vi:
     destroy:
       success: "Xóa bài đăng thành công"
       fail: "Xoá bài đăng thất bại."
+  relationships:
+    followed_user_not_found: "Không tìm thấy người cần theo dõi"

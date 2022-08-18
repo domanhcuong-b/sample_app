@@ -9,5 +9,5 @@ class Micropost < ApplicationRecord
   delegate :name, to: :user, prefix: true
 
   scope :newest, ->{order created_at: :desc}
-  scope :by_user_id, ->(user_id){where("user_id = ?", user_id)}
+  scope :by_user_ids, ->(user_ids){where user_id: user_ids}
 end
