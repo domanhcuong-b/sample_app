@@ -31,3 +31,6 @@ micropost:
   ACCEPT_IMG_TYPE: "image/jpeg,image/gif,image/png"
   IMG_EXTENSION_ALLOW: <%= %w(jpg jpeg gif png) %>
   LIMIT_IMG_SIZE: [400, 400]
+
+follow:
+  USER_PER_PAGE: 15
